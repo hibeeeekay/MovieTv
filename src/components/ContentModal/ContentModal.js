@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Modal from "@material-ui/core/Modal";
 import Backdrop from "@material-ui/core/Backdrop";
-import Fade from "@material-ui/core/Fade";
+import { Fade } from "@material-ui/core";
 import axios from "axios";
 import {
   img_500,
@@ -92,6 +92,7 @@ export default function TransitionsModal({ children, media_type, id }) {
         }}
       >
         <Fade in={open}>
+        
           {content && (
             <div className={classes.paper}>
               <div className="ContentModal">
@@ -148,6 +149,7 @@ export default function TransitionsModal({ children, media_type, id }) {
               </div>
             </div>
           )}
+        
         </Fade>
       </Modal>
     </>

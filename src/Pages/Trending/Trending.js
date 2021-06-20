@@ -20,7 +20,7 @@ const Trending = () => {
 
     useEffect(() => {
        fetchTrending();
-    }, [])
+    }, )
     return (
         <div>
             <span className="pageTitle">Trending</span>
