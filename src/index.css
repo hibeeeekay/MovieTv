@@ -17,11 +17,8 @@ code {
 .footer{
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   background-color: #39445a;
-=======
   background-color:#39445a ;
->>>>>>> 0c071a5e6908cf7e3874965a3983d35eb35429d2
   margin-bottom: 2px;
  
 }
